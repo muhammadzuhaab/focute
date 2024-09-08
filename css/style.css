@@ -13,3 +13,33 @@
   'GRAD' 0,
   'opsz' 24
 }
+
+.hero-section {
+    background-color: #22355F;
+    background-image: url("../image/hero-bg.png");
+    background-size: auto 300px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 0;
+}
+.header{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+}
+
+.bg-hover:hover {
+    background-color: #22355F;
+    color: white;
+    transition: background-color 0.5s ease; 
+}
+
+@media screen and (max-width: 991px) {
+    .hero-section {
+        background-image: none;
+    }
+}
