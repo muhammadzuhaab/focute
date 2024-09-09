@@ -24,7 +24,6 @@
     padding: 100px 0;
 }
 .header{
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.75);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -36,6 +35,11 @@
     background-color: #22355F;
     color: white;
     transition: background-color 0.5s ease; 
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 @media screen and (max-width: 991px) {
